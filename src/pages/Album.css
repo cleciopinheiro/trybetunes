@@ -1,0 +1,55 @@
+.container-album {
+  background-color: #EFF3F9;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  margin-left: 20vw;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  width: 80vw;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(123, 75, 156);
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.image-album {
+  border-radius: 12px;
+  width: 250px;
+}
+
+.card-album {
+  align-items: center;
+  background-color: rgb(84, 0, 140);
+  display: flex;
+  gap: 48px;
+  padding: 50px 50px;
+}
+
+.infos-card {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.title-card-album {
+  color: white;
+  font-size: 40px;
+}
+
+.name-artist-album {
+  color: white;
+  font-size: 32px;
+}
+
+.list-music {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  list-style: none;
+  padding: 50px 50px;
+}

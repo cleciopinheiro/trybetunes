@@ -1,0 +1,12 @@
+.container-music {
+  align-items: center;
+  display: flex;
+  gap: 12px;
+  justify-content: space-between;
+}
+
+.player {
+  align-items: center;
+  display: flex;
+  gap: 90px;
+}

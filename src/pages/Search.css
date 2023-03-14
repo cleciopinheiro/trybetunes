@@ -1,7 +1,17 @@
-.container {
+.page-search {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-page {
   background-color: #EFF3F9;
+  display: flex;
+  flex-direction: column;
   height: 100vh;
-  width: 100vw;
+  margin-left: 20vw;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  width: 80vw;
 }
 
 .form-container {
@@ -10,9 +20,14 @@
   display: flex;
   gap: 16px;
   justify-content: center;
-  height: 200px;
-  margin-left: 300px;
-  top: 0;
+  padding: 100px 50px;
+}
+
+.main-section {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  padding: 40px 120px;
 }
 
 .input-search {
@@ -20,7 +35,7 @@
     border-radius: 8px;
     height: 40px;
     padding-left: 16px;
-    width: 400px;
+    width: 600px;
 }
 
 
@@ -38,4 +53,27 @@
 
 .btn-search:disabled {
   background-color:  rgb(123, 75, 156);
+}
+
+.title-cards {
+  color: #58bb9a;
+}
+
+.container-cards {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 24px;
+}
+
+::-webkit-scrollbar {
+  color: white;
+  width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(123, 75, 156);
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 }
