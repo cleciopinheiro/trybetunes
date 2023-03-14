@@ -1,0 +1,26 @@
+header {
+  align-items: center;
+background-color: #EFF3F9;
+color: rgb(84, 0, 140);
+display: flex;
+flex-direction: column;
+height: 100vh;
+justify-content: space-around;
+left: 0;
+position: absolute;
+width: 300px;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+}
+
+.nav-link {
+  color: #5cae8c;
+  font-weight: 700;
+  font-size: 1.5rem;
+  text-decoration: none;
+
+}
