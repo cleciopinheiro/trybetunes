@@ -25,7 +25,7 @@ class Header extends React.Component {
     return (
       <header data-testid="header-component">
         <div data-testid="header-user-name">
-          {userReturn ? user : <Loading />}
+          {userReturn ? <h2 className="user-header">{`Olá, ${user}!`}</h2> : <Loading />}
         </div>
         <nav>
           <Link
