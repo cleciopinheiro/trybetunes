@@ -19,13 +19,12 @@ nav {
 
 .nav-link {
   color: #5cae8c;
-  font-weight: 700;
   font-size: 1.5rem;
+  font-weight: 700;
   text-decoration: none;
 
 }
 
 .user-header {
   color: rgb(84, 0, 140);
-  ;
 }

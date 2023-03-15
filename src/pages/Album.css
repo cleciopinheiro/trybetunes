@@ -1,20 +1,17 @@
 .container-album {
-  background-color: #EFF3F9;
+  background-color: #eff3f9;
   display: flex;
   flex-direction: column;
   height: 100vh;
   margin-left: 20vw;
-  overflow-y: scroll;
   overflow-x: hidden;
+  overflow-y: scroll;
   width: 80vw;
 }
 
 ::-webkit-scrollbar-thumb {
   background: rgb(123, 75, 156);
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
+  border-radius: 10px;
 }
 
 .image-album {
