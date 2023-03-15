@@ -10,3 +10,10 @@
   display: flex;
   gap: 90px;
 }
+
+.label-favorites {
+  align-items: center;
+  color: #58bb9a;
+  display: flex;
+  gap: 8px;
+}

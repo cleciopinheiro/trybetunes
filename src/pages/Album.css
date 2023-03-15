@@ -27,7 +27,7 @@
   background-color: rgb(84, 0, 140);
   display: flex;
   gap: 48px;
-  padding: 50px 50px;
+  padding: 50px 100px;
 }
 
 .infos-card {
@@ -51,5 +51,5 @@
   flex-direction: column;
   gap: 16px;
   list-style: none;
-  padding: 50px 50px;
+  padding: 50px 100px;
 }
