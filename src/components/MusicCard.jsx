@@ -35,7 +35,9 @@ class MusicCard extends React.Component {
     const { trackName, previewUrl, trackId } = this.props;
     const { isLoading, favorites } = this.state;
     return (
-      isLoading ? <Loading /> : (
+      <>
+        { isLoading && <Loading /> }
+
         <div className="container-music">
           <h3>{ trackName }</h3>
           <div className="player">
@@ -60,7 +62,9 @@ class MusicCard extends React.Component {
               />
             </label>
           </div>
-        </div>)
+        </div>
+      </>
+
     );
   }
 }
