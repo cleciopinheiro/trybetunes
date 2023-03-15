@@ -78,6 +78,6 @@ Album.propTypes = {
       id: PropTypes.string.isRequired,
     }).isRequired,
   }).isRequired,
-};
+}.isRequired;
 
 export default Album;
